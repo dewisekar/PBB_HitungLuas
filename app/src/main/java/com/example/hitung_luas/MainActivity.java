@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
                     double luas = p*l;
 
-                    txtLuas.setText("Hasil: "+luas);
+                    txtLuas.setText("Hasil: "+ String.format ("%.2f", luas));
                 }
             }
         });
